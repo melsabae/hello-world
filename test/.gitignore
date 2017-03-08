@@ -1,0 +1,9 @@
+!Makefile
+!.gitignore
+!*.c
+!*.h
+!coverage
+!coverage/*
+!profile
+!profile/*
+test_*
