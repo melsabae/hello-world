@@ -2,7 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+/*! \ref main.h
+ */
+int main(const int ARGC, const char const* const* ARGV)
 {
 	printf("%s\n", "hello, world!");
 	
