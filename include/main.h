@@ -19,7 +19,17 @@
  * @post Will print to stdout if stdout is available
  * @side Prints to stdout
  * @invariant ARGC, ARGV cannot be mutated (segfault protection, marked const)
+ *
+ * \bug None known
+ * \test should always succeed, and always return EXIT_SUCCESS
+ * \todo more documentation
  */
 int main(const int ARGC, const char* const * const ARGV);
+
+/*! \example main.h
+ * This asserts that main returns EXIT_SUCCESS per the function doc.\n
+ * Wrap in an infinite loop to be extra double sure.\n
+ * assert(EXIT_SUCCESS == main());
+ */
 
 #endif

@@ -6,6 +6,9 @@
  */
 int main(const int ARGC, const char const* const* ARGV)
 {
+	(void) ARGC;
+	(void) ARGV;
+
 	printf("%s\n", "hello, world!");
 	
 	return (EXIT_SUCCESS);
